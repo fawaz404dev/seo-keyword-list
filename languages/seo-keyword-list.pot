@@ -1,0 +1,156 @@
+# Copyright (C) 2023 فوزي جمعة
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: ترتيب الكلمات المفتاحية في جوجل 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/seo-keyword-list\n"
+"POT-Creation-Date: 2023-01-01 12:00+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 3.0\n"
+"X-Domain: seo-keyword-list\n"
+
+#: includes/class-seo-keyword-list-admin.php:42
+msgid "ترتيب الكلمات المفتاحية"
+msgstr ""
+
+#: includes/class-seo-keyword-list-admin.php:43
+msgid "الكلمات المفتاحية"
+msgstr ""
+
+#: includes/class-seo-keyword-list-admin.php:77
+msgid "هل أنت متأكد من رغبتك في حذف هذه الكلمة المفتاحية؟"
+msgstr ""
+
+#: includes/class-seo-keyword-list-admin.php:78
+msgid "حدث خطأ. يرجى المحاولة مرة أخرى."
+msgstr ""
+
+#: includes/class-seo-keyword-list-admin.php:79
+msgid "جاري تحضير ملف التصدير..."
+msgstr ""
+
+#: includes/class-seo-keyword-list-admin.php:80
+msgid "تم تصدير الكلمات المفتاحية بنجاح."
+msgstr ""
+
+#: includes/class-seo-keyword-list-admin.php:81
+msgid "حدث خطأ أثناء تصدير الكلمات المفتاحية."
+msgstr ""
+
+#: includes/class-seo-keyword-list-admin.php:107
+msgid "خطأ في التحقق من الأمان."
+msgstr ""
+
+#: includes/class-seo-keyword-list-admin.php:139
+msgid "يرجى إدخال كلمة مفتاحية."
+msgstr ""
+
+#: includes/class-seo-keyword-list-admin.php:148
+msgid "تمت إضافة الكلمة المفتاحية بنجاح."
+msgstr ""
+
+#: includes/class-seo-keyword-list-admin.php:150
+msgid "فشل في إضافة الكلمة المفتاحية."
+msgstr ""
+
+#: includes/class-seo-keyword-list-admin.php:161
+#: includes/class-seo-keyword-list-admin.php:187
+msgid "معرف الكلمة المفتاحية غير صالح."
+msgstr ""
+
+#: includes/class-seo-keyword-list-admin.php:174
+msgid "تم تحديث الكلمة المفتاحية بنجاح."
+msgstr ""
+
+#: includes/class-seo-keyword-list-admin.php:176
+msgid "فشل في تحديث الكلمة المفتاحية."
+msgstr ""
+
+#: includes/class-seo-keyword-list-admin.php:196
+msgid "تم حذف الكلمة المفتاحية بنجاح."
+msgstr ""
+
+#: includes/class-seo-keyword-list-admin.php:198
+msgid "فشل في حذف الكلمة المفتاحية."
+msgstr ""
+
+#: templates/admin-page.php:14
+msgid "ترتيب الكلمات المفتاحية في جوجل"
+msgstr ""
+
+#: templates/admin-page.php:19
+msgid "إضافة كلمة مفتاحية جديدة"
+msgstr ""
+
+#: templates/admin-page.php:27
+msgid "الكلمة المفتاحية"
+msgstr ""
+
+#: templates/admin-page.php:35
+msgid "الترتيب الأولي"
+msgstr ""
+
+#: templates/admin-page.php:39
+msgid "ترتيب الكلمة المفتاحية عند بدء التتبع."
+msgstr ""
+
+#: templates/admin-page.php:44
+msgid "إضافة الكلمة المفتاحية"
+msgstr ""
+
+#: templates/admin-page.php:49
+msgid "قائمة الكلمات المفتاحية"
+msgstr ""
+
+#: templates/admin-page.php:51
+msgid "تصدير إلى CSV"
+msgstr ""
+
+#: templates/admin-page.php:52
+msgid "لا توجد كلمات مفتاحية حتى الآن."
+msgstr ""
+
+#: templates/admin-page.php:57
+msgid "الترتيب الحالي"
+msgstr ""
+
+#: templates/admin-page.php:58
+msgid "ترتيب التحديث السابق"
+msgstr ""
+
+#: templates/admin-page.php:59
+msgid "ترتيب الشهر السابق"
+msgstr ""
+
+#: templates/admin-page.php:59
+msgid "التغيير"
+msgstr ""
+
+#: templates/admin-page.php:60
+msgid "آخر تحديث"
+msgstr ""
+
+#: templates/admin-page.php:61
+msgid "الإجراءات"
+msgstr ""
+
+#: templates/admin-page.php:77
+msgid "تحديث"
+msgstr ""
+
+#: templates/admin-page.php:78
+msgid "إلغاء"
+msgstr ""
+
+#: templates/admin-page.php:97
+msgid "تعديل"
+msgstr ""
+
+#: templates/admin-page.php:98
+msgid "حذف"
+msgstr ""

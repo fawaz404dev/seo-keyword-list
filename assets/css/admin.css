@@ -1,0 +1,383 @@
+/**
+ * Admin styles for SEO Keyword List plugin
+ */
+
+:root {
+    --primary-color: #2271b1;
+    --secondary-color: #135e96;
+    --success-color: #00a32a;
+    --danger-color: #d63638;
+    --neutral-color: #666;
+    --light-bg: #f0f0f1;
+    --card-bg: #fff;
+    --border-color: #dcdcde;
+    --shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+    --border-radius: 4px;
+    --transition: all 0.3s ease;
+}
+
+.seo-keyword-list-container {
+    margin-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.seo-keyword-list-add-form {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    padding: 24px;
+    margin-bottom: 30px;
+    transition: var(--transition);
+}
+
+.seo-keyword-list-add-form:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.seo-keyword-list-add-form h2 {
+    margin-top: 0;
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+.seo-keyword-list-table {
+    margin-top: 30px;
+}
+
+.seo-keyword-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.seo-keyword-list-header h2 {
+    margin: 0;
+    color: var(--primary-color);
+}
+
+.seo-keyword-list-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.seo-keyword-list-filter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.seo-keyword-list-filter label {
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.seo-keyword-list-filter select {
+    padding: 6px 10px;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+    background-color: var(--card-bg);
+    color: var(--neutral-color);
+    font-size: 14px;
+    min-width: 180px;
+}
+
+/* RTL Support for header */
+html[dir="rtl"] .seo-keyword-list-header {
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .seo-keyword-list-actions {
+    flex-direction: row-reverse;
+}
+
+/* Table Styling */
+.wp-list-table {
+    border-collapse: collapse;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border-color);
+}
+
+.wp-list-table thead th {
+    background-color: var(--light-bg);
+    color: var(--primary-color);
+    font-weight: 600;
+    padding: 12px 10px;
+    text-align: right;
+}
+
+.wp-list-table tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.wp-list-table tbody td {
+    padding: 12px 10px;
+    vertical-align: middle;
+    transition: var(--transition);
+}
+
+/* Change Status Styling */
+.seo-keyword-list-table .change {
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.seo-keyword-list-table .change.positive {
+    color: var(--success-color);
+    background-color: rgba(0, 163, 42, 0.1);
+}
+
+.seo-keyword-list-table .change.negative {
+    color: var(--danger-color);
+    background-color: rgba(214, 54, 56, 0.1);
+}
+
+.seo-keyword-list-table .change.neutral {
+    color: var(--neutral-color);
+    background-color: rgba(102, 102, 102, 0.1);
+}
+
+/* Action Links */
+.seo-keyword-list-table .edit-keyword,
+.seo-keyword-list-table .delete-keyword {
+    cursor: pointer;
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 2px 6px;
+    border-radius: 3px;
+    transition: var(--transition);
+}
+
+.seo-keyword-list-table .edit-keyword:hover {
+    color: var(--secondary-color);
+    background-color: rgba(34, 113, 177, 0.1);
+}
+
+.seo-keyword-list-table .delete-keyword {
+    color: var(--danger-color);
+}
+
+.seo-keyword-list-table .delete-keyword:hover {
+    background-color: rgba(214, 54, 56, 0.1);
+}
+
+.seo-keyword-list-table .cancel-edit {
+    margin-right: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: var(--neutral-color);
+}
+
+.seo-keyword-list-table .cancel-edit:hover {
+    color: var(--danger-color);
+}
+
+/* RTL Support for Arabic */
+html[dir="rtl"] .seo-keyword-list-table .cancel-edit {
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+html[dir="rtl"] .wp-list-table thead th {
+    text-align: right;
+}
+
+/* Leading URL Styling */
+.leading-url-field {
+    margin-bottom: 5px;
+}
+
+.leading-url-field input[type="url"] {
+    width: 100%;
+}
+
+.leading-url-display {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.leading-url-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.leading-url-link:hover {
+    text-decoration: underline;
+    color: var(--secondary-color);
+}
+
+.copy-url-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--primary-color);
+    padding: 2px;
+    border-radius: 3px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy-url-button:hover {
+    background-color: rgba(34, 113, 177, 0.1);
+}
+
+.copy-url-button .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+.no-url {
+    color: var(--neutral-color);
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+/* Button Styling */
+.button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: var(--transition);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 2;
+    min-height: 30px;
+}
+
+.button:hover {
+    background-color: var(--secondary-color);
+}
+
+.button-small {
+    padding: 4px 12px;
+    font-size: 13px;
+    min-height: 26px;
+    line-height: 1.5;
+}
+
+#export-csv {
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+}
+
+#export-csv:hover {
+    background-color: #3e8e41;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-1px);
+}
+
+#export-csv:before {
+    content: '\f0ce';
+    font-family: dashicons;
+    font-size: 16px;
+    line-height: 1;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Form Styling */
+.form-table th {
+    padding: 15px 10px 15px 0;
+    width: 200px;
+    font-weight: 600;
+}
+
+.form-table td {
+    padding: 15px 10px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 6px 8px;
+    box-shadow: 0 0 0 transparent;
+    transition: var(--transition);
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 1px var(--primary-color);
+    outline: 2px solid transparent;
+}
+
+/* Footer Credits */
+.seo-keyword-list-footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+    text-align: center;
+    color: var(--neutral-color);
+    font-size: 13px;
+}
+
+.seo-keyword-list-footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.seo-keyword-list-footer a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 782px) {
+    .seo-keyword-list-table .wp-list-table {
+        table-layout: auto;
+    }
+    
+    .seo-keyword-list-table .wp-list-table th,
+    .seo-keyword-list-table .wp-list-table td {
+        padding: 10px 5px;
+    }
+    
+    .seo-keyword-list-table .edit-rank input[type="number"] {
+        width: 60px;
+    }
+    
+    .form-table th {
+        width: 100%;
+        display: block;
+        padding-bottom: 0;
+    }
+    
+    .form-table td {
+        display: block;
+        padding-top: 8px;
+    }
+}

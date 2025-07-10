@@ -1,0 +1,157 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ترتيب الكلمات المفتاحية في جوجل 1.0.0\n"
+"POT-Creation-Date: 2023-01-01 12:00+0200\n"
+"PO-Revision-Date: 2023-01-01 12:00+0200\n"
+"Last-Translator: فوزي جمعة <info@fjomah.com>\n"
+"Language-Team: فوزي جمعة <info@fjomah.com>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-seo-keyword-list-admin.php:42
+msgid "ترتيب الكلمات المفتاحية"
+msgstr "ترتيب الكلمات المفتاحية"
+
+#: includes/class-seo-keyword-list-admin.php:43
+msgid "الكلمات المفتاحية"
+msgstr "الكلمات المفتاحية"
+
+#: includes/class-seo-keyword-list-admin.php:77
+msgid "هل أنت متأكد من رغبتك في حذف هذه الكلمة المفتاحية؟"
+msgstr "هل أنت متأكد من رغبتك في حذف هذه الكلمة المفتاحية؟"
+
+#: includes/class-seo-keyword-list-admin.php:78
+msgid "حدث خطأ. يرجى المحاولة مرة أخرى."
+msgstr "حدث خطأ. يرجى المحاولة مرة أخرى."
+
+#: includes/class-seo-keyword-list-admin.php:79
+msgid "جاري تحضير ملف التصدير..."
+msgstr "جاري تحضير ملف التصدير..."
+
+#: includes/class-seo-keyword-list-admin.php:80
+msgid "تم تصدير الكلمات المفتاحية بنجاح."
+msgstr "تم تصدير الكلمات المفتاحية بنجاح."
+
+#: includes/class-seo-keyword-list-admin.php:81
+msgid "حدث خطأ أثناء تصدير الكلمات المفتاحية."
+msgstr "حدث خطأ أثناء تصدير الكلمات المفتاحية."
+
+#: includes/class-seo-keyword-list-admin.php:107
+msgid "خطأ في التحقق من الأمان."
+msgstr "خطأ في التحقق من الأمان."
+
+#: includes/class-seo-keyword-list-admin.php:139
+msgid "يرجى إدخال كلمة مفتاحية."
+msgstr "يرجى إدخال كلمة مفتاحية."
+
+#: includes/class-seo-keyword-list-admin.php:148
+msgid "تمت إضافة الكلمة المفتاحية بنجاح."
+msgstr "تمت إضافة الكلمة المفتاحية بنجاح."
+
+#: includes/class-seo-keyword-list-admin.php:150
+msgid "فشل في إضافة الكلمة المفتاحية."
+msgstr "فشل في إضافة الكلمة المفتاحية."
+
+#: includes/class-seo-keyword-list-admin.php:161
+#: includes/class-seo-keyword-list-admin.php:187
+msgid "معرف الكلمة المفتاحية غير صالح."
+msgstr "معرف الكلمة المفتاحية غير صالح."
+
+#: includes/class-seo-keyword-list-admin.php:174
+msgid "تم تحديث الكلمة المفتاحية بنجاح."
+msgstr "تم تحديث الكلمة المفتاحية بنجاح."
+
+#: includes/class-seo-keyword-list-admin.php:176
+msgid "فشل في تحديث الكلمة المفتاحية."
+msgstr "فشل في تحديث الكلمة المفتاحية."
+
+#: includes/class-seo-keyword-list-admin.php:196
+msgid "تم حذف الكلمة المفتاحية بنجاح."
+msgstr "تم حذف الكلمة المفتاحية بنجاح."
+
+#: includes/class-seo-keyword-list-admin.php:198
+msgid "فشل في حذف الكلمة المفتاحية."
+msgstr "فشل في حذف الكلمة المفتاحية."
+
+#: templates/admin-page.php:14
+msgid "ترتيب الكلمات المفتاحية في جوجل"
+msgstr "ترتيب الكلمات المفتاحية في جوجل"
+
+#: templates/admin-page.php:19
+msgid "إضافة كلمة مفتاحية جديدة"
+msgstr "إضافة كلمة مفتاحية جديدة"
+
+#: templates/admin-page.php:27
+msgid "الكلمة المفتاحية"
+msgstr "الكلمة المفتاحية"
+
+#: templates/admin-page.php:35
+msgid "الترتيب الأولي"
+msgstr "الترتيب الأولي"
+
+#: templates/admin-page.php:39
+msgid "ترتيب الكلمة المفتاحية عند بدء التتبع."
+msgstr "ترتيب الكلمة المفتاحية عند بدء التتبع."
+
+#: templates/admin-page.php:44
+msgid "إضافة الكلمة المفتاحية"
+msgstr "إضافة الكلمة المفتاحية"
+
+#: templates/admin-page.php:49
+msgid "قائمة الكلمات المفتاحية"
+msgstr "قائمة الكلمات المفتاحية"
+
+#: templates/admin-page.php:51
+msgid "تصدير إلى CSV"
+msgstr "تصدير إلى CSV"
+
+#: templates/admin-page.php:52
+msgid "لا توجد كلمات مفتاحية حتى الآن."
+msgstr "لا توجد كلمات مفتاحية حتى الآن."
+
+#: templates/admin-page.php:57
+msgid "الترتيب الحالي"
+msgstr "الترتيب الحالي"
+
+#: templates/admin-page.php:58
+msgid "ترتيب التحديث السابق"
+msgstr "ترتيب التحديث السابق"
+
+#: templates/admin-page.php:59
+msgid "ترتيب الشهر السابق"
+msgstr "ترتيب الشهر السابق"
+
+#: templates/admin-page.php:59
+msgid "التغيير"
+msgstr "التغيير"
+
+#: templates/admin-page.php:60
+msgid "آخر تحديث"
+msgstr "آخر تحديث"
+
+#: templates/admin-page.php:61
+msgid "الإجراءات"
+msgstr "الإجراءات"
+
+#: templates/admin-page.php:77
+msgid "تحديث"
+msgstr "تحديث"
+
+#: templates/admin-page.php:78
+msgid "إلغاء"
+msgstr "إلغاء"
+
+#: templates/admin-page.php:97
+msgid "تعديل"
+msgstr "تعديل"
+
+#: templates/admin-page.php:98
+msgid "حذف"
+msgstr "حذف"
